@@ -86,3 +86,19 @@ p{
   padding:0px 20px;
 }
 
+#name {
+font-size: 6vw;
+  font-family: 'Roboto Slab', serif;
+
+}
+
+#title { 
+    
+font-size: 3vw;
+  font-family: 'Roboto Slab', serif;
+
+}
+#display{
+
+    font-family: cursive;
+}
