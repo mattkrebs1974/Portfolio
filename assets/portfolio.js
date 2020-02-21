@@ -2,10 +2,10 @@ $(document).ready(function () {
     var scroll_pos = 0;
     $(document).scroll(function () {
         scroll_pos = $(this).scrollTop();
-        percent = scroll_pos/(426.25);
+        percent = scroll_pos/(456.25);
         opacityPercent = 1 - percent;
         realOpacityPercent = opacityPercent*100;
-        if (scroll_pos > -1 && scroll_pos < 426.25) {
+        if (scroll_pos > -1 && scroll_pos < 456.25) {
             $("#display").css('margin-top', scroll_pos+'px');
             $("#display").css('opacity', realOpacityPercent + '%');
         } else 
@@ -13,9 +13,20 @@ $(document).ready(function () {
             $("#display").css('opacity', '0%');
         }
 
-
-      
-
         console.log("opacityPercent"+opacityPercent)
     });
 });
+
+$('a').on('click', function (e) {
+
+    if (this.hash !== '') {
+        e.preventDefault();
+        const hash = this.hash;
+
+        // console.log(scrollTop);
+
+        $('html, body').animate({ scrollTop: $(hash).offset().top }, 2000);
+    }
+});
+
+
