@@ -8,9 +8,21 @@ $(document).ready(function () {
         if (scroll_pos > -1 && scroll_pos < 456.25) {
             $("#display").css('margin-top', scroll_pos+'px');
             $("#display").css('opacity', realOpacityPercent + '%');
-        } else 
+            $(".nav-link").css('color', 'white');
+            $(".nav-link").css('background', 'rgba(0, 0, 0, 0)');
+        }
+        if (scroll_pos > 456.25 && scroll_pos< 840)
         {
             $("#display").css('opacity', '0%');
+            $(".nav-link").css('color', 'white');
+            $(".nav-link").css('background', 'rgba(0, 0, 0, 0)');
+        } 
+        if (scroll_pos > 840) {
+
+           
+            $(".nav-link").css('background', 'rgba(0, 0, 0, 1)');
+            $(".nav-link").css('color', 'white');
+
         }
 
         console.log("opacityPercent"+opacityPercent)
@@ -25,7 +37,7 @@ $('a').on('click', function (e) {
 
         // console.log(scrollTop);
 
-        $('html, body').animate({ scrollTop: $(hash).offset().top }, 2000);
+        $('html, body').animate({ scrollTop: $(hash).offset().top }, 1000);
     }
 });
 

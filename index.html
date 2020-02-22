@@ -39,25 +39,25 @@
 <body>
 <header style="color:white">
    
-<nav class="navbar-dark navbar-success bg-transparent navbar-expand-lg">
+<nav id="nav2" class="navbar-dark navbar-success bg-transparent navbar-expand-lg">
    
-    <button id="navbarButton" class="navbar-toggler mr-auto custom-toggler" style="margin: 10px 0 0 40px;"type="button" data-toggle="collapse" data-target="#nav3">
+    <button id="navbarButton" class="navbar-toggler mr-auto custom-toggler" style="margin: 20px 0 0 20px;"type="button" data-toggle="collapse" data-target="#nav3">
       
         <span class="navbar-toggler-icon"></span>
     </button>
     <div class="navbar-collapse collapse" id="nav3">
         <ul class="nav navbar-nav navbar-right ml-auto">
             <li class="nav-item">
-                <a class="nav-link" href="#hero1">Home</a>
+                <a id="toplink" class="nav-link" href="#hero1" data-toggle="collapse" data-target=".navbar-collapse.show">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#section2">About Me</a>
+                <a class="nav-link" href="#section2" data-toggle="collapse" data-target=".navbar-collapse.show">About</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#section3">Portfolio</a>
+                <a class="nav-link" href="#section3" data-toggle="collapse" data-target=".navbar-collapse.show">Portfolio</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#section4">Contact Me</a>
+            <li id="bottomLink" class="nav-item">
+                <a id="bottomLink" class="nav-link" href="#section4" data-toggle="collapse" data-target=".navbar-collapse.show">Contact</a>
             </li>
         </ul>
     </div>
@@ -78,9 +78,11 @@
     </section>
     
     <section id="section2" class="content">
+        <div>From the world of Math Education, I come with a detail oriented analytical mind, a real appreciation for problems that need to be solved and a passion for creating new things. </div>
+        I am detail oriented 
         <div class="inner">
             <div class="copy">
-                <h1>Amazing copy!</h1>
+                <h1>About Me</h1>
     
             </div>
         </div>
@@ -89,7 +91,7 @@
     <section id="section3" class="content">
         <div class="inner">
             <div class="copy">
-                <h1>Amazing copy!</h1>
+                <h1>Portfolio</h1>
     
             </div>
         </div>
@@ -98,7 +100,7 @@
     <section id="section4" class="content">
         <div class="inner">
             <div class="copy">
-                <h1>Amazing copy!</h1>
+                <h1>ContactMe</h1>
     
             </div>
         </div>
