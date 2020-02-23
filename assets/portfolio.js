@@ -21,7 +21,7 @@ $(document).ready(function () {
 
            
             $(".nav-link").css('background', 'rgba(0, 0, 0, 1)');
-            $(".nav-link").css('color', 'white');
+            $(".nav-link").css('color', 'gray');
 
         }
 
