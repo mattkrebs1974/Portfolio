@@ -11,13 +11,13 @@ $(document).ready(function () {
             $(".nav-link").css('color', 'white');
             $(".nav-link").css('background', 'rgba(0, 0, 0, 0)');
         }
-        if (scroll_pos > 456.25 && scroll_pos< 840)
+        if (scroll_pos > 456.25 && scroll_pos< 586.25)
         {
             $("#display").css('opacity', '0%');
             $(".nav-link").css('color', 'white');
             $(".nav-link").css('background', 'rgba(0, 0, 0, 0)');
         } 
-        if (scroll_pos > 840) {
+        if (scroll_pos > 586.25) {
 
            
             $(".nav-link").css('background', 'rgba(0, 0, 0, 1)');
@@ -25,7 +25,7 @@ $(document).ready(function () {
 
         }
 
-        console.log("opacityPercent"+opacityPercent)
+        console.log("scrollPos"+scroll_pos);
     });
 });
 
