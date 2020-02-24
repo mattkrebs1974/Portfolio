@@ -30,11 +30,13 @@ $(document).ready(function () {
 
 
 
-        console.log("scrollPos" + scroll_pos);
-        console.log("screenWidth" + screenWidth);
+        // console.log("scrollPos" + scroll_pos);
+        // console.log("screenWidth" + screenWidth);
     });
 });
 
+
+//scrolls to the right link
 $('a').on('click', function (e) {
 
     if (this.hash !== '') {
@@ -54,7 +56,7 @@ $('a').click(function () {
     return false;
 });
 
-// Cache selectors
+// Underlines what section you are on. 
 var topMenu = $(".nav"),
     topMenuHeight = topMenu.outerHeight() + 15,
     // All list items
@@ -63,6 +65,8 @@ var topMenu = $(".nav"),
     scrollItems = menuItems.map(function () {
         var item = $($(this).attr("href"));
         if (item.length) { return item; }
+
+        console.log("item"+item);
     });
 
 // Bind to scroll
@@ -82,6 +86,6 @@ $(window).scroll(function () {
     menuItems
         .parent().removeClass("active")
         .end().filter("[href='#" + id + "']").parent().addClass("active");
+  
+
 });
-
-

@@ -167,6 +167,7 @@ margin-right:15px;
   background-color: white;
   padding: 40px;
   border-top: white solid 40px;
+
  
 }
 
@@ -181,6 +182,7 @@ margin-right:15px;
   background-color: white;
   padding: 40px;
   border-top: white solid 40px;
+
 
 }
 
@@ -272,9 +274,24 @@ margin: 5px;
   color: white !important;
 
   transform: rotateY(180deg);
+  opacity:0%;
+   transition: opacity 1s ease-in-out;
+   -moz-transition: opacity 1s ease-in-out;
+   -webkit-transition: opacity 1s ease-in-out;
+
 
 
 }
+	div:hover > .flip-card-back {
+    opacity:1;
+  }
+
+  #pennlogo:hover {
+
+box-shadow: 0px 0px 20px white;
+transform: scale(1.1);
+
+  }
 
 
 
@@ -314,15 +331,6 @@ height: 370px;
 
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
+.flip-card-back {
+  animation: EAT 2s;
 }
