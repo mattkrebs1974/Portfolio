@@ -232,9 +232,23 @@ margin: 5px;
   
 }
 
-.flip-card:hover .flip-card-inner {
+.flip-card:hover .flip-card-inner  { 
+  
+
+
   transform: rotateY(180deg);
+
+
+  
+
 }
+
+
+
+
+
+
+
 
 .flip-card-front, .flip-card-back {
   position: absolute;
@@ -253,10 +267,17 @@ margin: 5px;
 }
 
 .flip-card-back {
+
   background-color:black;
   color: white !important;
+
   transform: rotateY(180deg);
+
+
 }
+
+
+
 .headings {
 
 
@@ -265,7 +286,11 @@ margin: 5px;
   width: 100%;
   font-size: 4vw;
   font-family: 'Roboto Slab', serif;
+ 
 }
+
+
+
 
 
 
@@ -287,4 +312,17 @@ height: 370px;
 
   padding-bottom: 50px;
 
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
 }
