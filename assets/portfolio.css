@@ -102,8 +102,18 @@ p{
 #name {
 font-size: 6vw;
   font-family: 'Roboto Slab', serif;
+ 
 
 }
+
+#name:hover {
+font-size: 6vw;
+  font-family: 'Roboto Slab', serif;
+ 
+
+}
+
+
 
 #title { 
     
@@ -239,6 +249,7 @@ margin: 5px;
 
 
   transform: rotateY(180deg);
+
 
 
   
