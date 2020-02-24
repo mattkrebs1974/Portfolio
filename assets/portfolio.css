@@ -143,11 +143,10 @@ margin-top: 0px;
 
 }
 
-@media only screen and (min-width: 988px) {
-#bottomLink{
-margin-right:10px;
 
-}
+#bottomLink{
+margin-right:15px;
+
 }
 
 
@@ -186,7 +185,7 @@ margin-right:10px;
 }
 
 #section4{
-  height: 500px;
+  height: 600px;
 
   background-color: blue;
    border-top: white solid 60px;
@@ -275,4 +274,17 @@ margin: 5px;
   text-shadow: white;
   border-bottom: 2px solid green;
   color: orange;
+}
+
+footer{
+background-color: black;
+color:white;
+padding-top: 50px;
+height: 500px;
+}
+
+.bottom {
+
+  padding-bottom: 50px;
+
 }
