@@ -2,6 +2,8 @@
 html, body{
   margin:0px; padding:0px;
    font-family: 'Roboto Slab', serif;
+max-width: 100%;
+ 
 }
 
 *, *:after, *:before {
@@ -17,6 +19,7 @@ header{
   height:80px; 
   background:rgba(0,0,0, 1);
   margin-bottom:20px;
+
 }
 
 header a{
@@ -32,12 +35,15 @@ header a{
   text-transform:uppercase; 
   letter-spacing:2px; 
   font-weight:700;
+  
+    
 }
 #hero1{
  background:url(https://media.giphy.com/media/oXveJYgfwbZy8/giphy.gif);
   background-size:cover;
   background-position:center center;
   background-attachment:fixed;
+     
 
 }
 
@@ -50,10 +56,11 @@ header a{
   text-align:center; 
   position:relative;
   width: 100%;
+     
 }
 
 .inner{
-  min-height:900px;
+  min-height:1000px;
   position: inherit;
 }
 
@@ -125,11 +132,7 @@ margin-top: 0px;
 }
 
 @media only screen and (max-width: 988px) {
- #toplink{
 
-margin-top: 20px;
-
-}
  .nav-link{
   
   background-color: rgba(0, 0, 0, 0);
@@ -151,7 +154,7 @@ margin-right:10px;
 
 #hero1{
 
-  min-height: 900px;
+  min-height: 1000px;
     position: inherit;
 }
 #section2{
@@ -161,16 +164,24 @@ margin-right:10px;
  width:100%;
 
 
+
   background-color: white;
   padding: 40px;
-  border-top: black solid 40px;
+  border-top: white solid 40px;
  
 }
 
 #section3{
-height: 500px;
-  background-color: green;
-   border-top: black solid 60px;
+
+  
+ font-size: 2.2vw;
+
+
+ width:100%;
+
+  background-color: white;
+  padding: 40px;
+  border-top: white solid 40px;
 
 }
 
@@ -178,7 +189,17 @@ height: 500px;
   height: 500px;
 
   background-color: blue;
-   border-top: black solid 60px;
+   border-top: white solid 60px;
+
+   font-size: 2.2vw;
+
+
+ width:100%;
+
+  background-color: white;
+  padding: 40px;
+  border-top: white solid 40px;
+
 
 }
 #statement {
@@ -195,8 +216,8 @@ margin: 5px;
   background-color: transparent;
 
   width: auto;
-  height:50vw;
-  margin:20px;
+  height:31vw;
+  margin:25px;
   perspective: 1000px;
 }
 
@@ -208,7 +229,7 @@ margin: 5px;
   text-align: center;
   transition: transform 0.6s;
   transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+ box-shadow: 0px 10px 20px black;
   
 }
 
@@ -228,6 +249,8 @@ margin: 5px;
 .flip-card-front {
   background-color: #bbb;
   color: black;
+ 
+  
 }
 
 .flip-card-back {
@@ -245,3 +268,11 @@ margin: 5px;
   font-family: 'Roboto Slab', serif;
 }
 
+
+
+.nav li.active a{
+  font-weight: bolder;
+  text-shadow: white;
+  border-bottom: 2px solid green;
+  color: orange;
+}
