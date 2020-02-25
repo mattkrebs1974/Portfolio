@@ -25,15 +25,19 @@ $(document).ready(function () {
 
         }
 
+       
+
+      
 
 
 
-
-
-        // console.log("scrollPos" + scroll_pos);
         // console.log("screenWidth" + screenWidth);
     });
 });
+
+// get variables for manipulating gradient
+
+
 
 
 //scrolls to the right link
@@ -66,7 +70,7 @@ var topMenu = $(".nav"),
         var item = $($(this).attr("href"));
         if (item.length) { return item; }
 
-        console.log("item"+item);
+       
     });
 
 // Bind to scroll
