@@ -176,7 +176,9 @@ margin-right:15px;
 
   background-color: white;
   padding: 40px;
-  border-top: white solid 40px;
+  border-top: 40px;
+    border-top: 40px;
+ 
 
  
 }
@@ -191,13 +193,13 @@ margin-right:15px;
 
   background-color: white;
   padding: 40px;
-  border-top: white solid 40px;
+ border-top:40px;
 
 
 }
 
 #section4{
-  height: 600px;
+
 
   background-color: blue;
    border-top: white solid 60px;
@@ -209,7 +211,7 @@ margin-right:15px;
 
   background-color: white;
   padding: 40px;
-  border-top: white solid 40px;
+  border-top:40px;
 
 
 }
@@ -286,9 +288,9 @@ margin: 5px;
 
   transform: rotateY(180deg);
   opacity:0%;
-   transition: opacity 1s ease-in-out;
-   -moz-transition: opacity 1s ease-in-out;
-   -webkit-transition: opacity 1s ease-in-out;
+   transition: opacity .8s ease-in-out;
+   -moz-transition: opacity .8s ease-in-out;
+   -webkit-transition: opacity .8s ease-in-out;
 
 
 
@@ -344,4 +346,22 @@ height: 370px;
 
 .flip-card-back {
   animation: EAT 2s;
+}
+
+#section2,#section3,#section4 {
+	background: linear-gradient(-90deg, #8884FF, #217487, #88B161,#8884FF);
+	background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
