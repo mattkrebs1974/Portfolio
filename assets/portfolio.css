@@ -186,7 +186,7 @@ margin-right:15px;
 #section3{
 
   
- font-size: 2.2vw;
+ font-size: 80%;
 
 
  width:100%;
@@ -196,6 +196,16 @@ margin-right:15px;
  border-top:40px;
 
 
+}
+#section3 .flip-card-back a{
+
+font-size: 100%;
+
+}
+
+.Threetext {
+
+font-size: 100%;
 }
 
 #section4{
@@ -314,7 +324,7 @@ transform: scale(1.1);
    text-align:center; 
   position:relative;
   width: 100%;
-  font-size: 4vw;
+  font-size: 200%;
   font-family: 'Roboto Slab', serif;
  
 }
