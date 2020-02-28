@@ -401,11 +401,14 @@ color:white !important;
 margin-top:5px;
 font-size: 100%;
 
+
 }
 
 .Threetext {
 
-font-size: 60%;
+/* font-size: 60%; */
+
+font-size: clamp(8px, 1.8vw, 16px); 
 }
 
  

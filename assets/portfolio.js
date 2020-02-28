@@ -92,43 +92,26 @@ $(window).scroll(function () {
         .end().filter("[href='#" + id + "']").parent().addClass("active");
   
 
-});
-
-
-function heightwidth () {
-
-    var height= $(".image").height();
-    var width = $(".image").width();
-    var area = height * width;
-    var pixel = area * .000282;
-
-    console.log("height" + height);
-    console.log("width" + width);
-    console.log("area" + area);
-
-    $(".flip-card-back").css("font-size", pixel + "px");
 
 
 
-}
-heightwidth();
+// function heightwidth () {
 
+//     var height= $(".image").height();
+//     var width = $(".image").width();
+//     var area = height * width;
+//     var pixel = area * .000260;
 
+//     console.log("height" + height);
+//     console.log("width" + width);
+//     console.log("area" + area);
 
-// function heightwidth2() {
-
-//     var height2 = $(".image2").height();
-//     var width2 = $(".image2").width();
-//     var area2 = height2 * width2;
-//     var pixel2 = area2 * .000282;
-
-//     console.log("height" + height2);
-//     console.log("width" + width2);
-//     console.log("area" + area2);
-
-//     $(".flip-card-back2").css("font-size", pixel2 + "px");
-
+//     $(".flip-card-back").css("font-size", pixel + "px");
+// console.log("pixel size" + pixel)
 
 
 // }
-// heightwidth2();
+// heightwidth();
+
+
+});
