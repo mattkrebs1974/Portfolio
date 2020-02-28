@@ -106,7 +106,7 @@ function heightwidth () {
     console.log("width" + width);
     console.log("area" + area);
 
-    $(".flip-card-back").css("font-size", pixel+"px");
+    $(".flip-card-back").css("font-size", pixel + "px");
 
 
 
