@@ -202,7 +202,7 @@ margin-right:15px;
 color:white !important; 
 margin-top:10px;
 
-font-size: 100%;
+font-size: 110%;
 
 
 
@@ -210,7 +210,7 @@ font-size: 100%;
 
 .Threetext {
 
-font-size: 70%;
+font-size: 100%;
 }
 
 #section4{
@@ -399,19 +399,23 @@ height: 570px;
 
 color:white !important; 
 margin-top:5px;
-font-size: 100%;
+
 
 
 }
 
-.Threetext {
-
-/* font-size: 60%; */
-
-font-size: clamp(8px, 1.8vw, 16px); 
-}
 
  
 
 }
 
+
+
+@media only screen and (max-width: 688px) {
+
+.Threetext {
+
+font-size: 70%;
+}
+
+}
