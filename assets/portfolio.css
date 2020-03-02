@@ -355,7 +355,7 @@ color:white;
 
 /* padding-top: 50px; */
 
-height: 570px;
+min-height: 570px;
 }
 
 .bottom {
@@ -430,4 +430,16 @@ font-size: 70%;
 transform: scale(1.3);
 color:#990000;
 
+}
+
+.overlay{
+  position: absolute;
+  top: 90%;
+ left:31%;
+ width: 35%;
+ height: 80%;
+
+ 
+  z-index: 10;
+ 
 }
