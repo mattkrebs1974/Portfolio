@@ -355,7 +355,7 @@ color:white;
 
 /* padding-top: 50px; */
 
-min-height: 570px;
+
 }
 
 .bottom {
@@ -442,4 +442,8 @@ color:#990000;
  
   z-index: 10;
  
+}
+nav{
+
+  z-index: 25;
 }
