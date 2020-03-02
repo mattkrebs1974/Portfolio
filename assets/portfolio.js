@@ -3,8 +3,10 @@ $(document).ready(function () {
     $(document).scroll(function () {
         scroll_pos = $(this).scrollTop();
         percent = scroll_pos / (156.25);
-        fontPercent = .6 - percent;
-        fontPercentT = .3 - percent;
+        fpercent = percent * .6;
+        fpercentT = percent * .3;
+        fontPercent = .6 - fpercent;
+        fontPercentT = .3 - fpercentT;
         opacityPercent = 1 - percent;
         realfontPercent = fontPercent * 100;
         realfontPercentT = fontPercentT * 100;
@@ -19,7 +21,7 @@ $(document).ready(function () {
             $("#name").css('font-size', realfontPercent + 'px');
             $("#title").css('font-size', realfontPercentT + 'px');
 
-            console.log("percent" + realOpacityPercent)
+            console.log("percent" + realfontPercentT)
 
             $(".nav-link").css('color', 'white');
             $(".nav-link").css('background', 'rgba(0, 0, 0, 0)');
@@ -61,7 +63,7 @@ $('a').on('click', function (e) {
 
         // console.log(scrollTop);
 
-        $('html, body').animate({ scrollTop: $(hash).offset().top }, 1000);
+        $('html, body').animate({ scrollTop: $(hash).offset().top }, 1500);
     }
 });
 
