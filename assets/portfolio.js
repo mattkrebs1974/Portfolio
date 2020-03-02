@@ -11,12 +11,12 @@ $(document).ready(function () {
         realfontPercent = fontPercent * 100;
         realfontPercentT = fontPercentT * 100;
         realOpacityPercent = opacityPercent * 100;
-        
+
         var screenWidth = window.innerWidth;
         if (scroll_pos > -1 && scroll_pos < 156.25) {
-           
+
             // $("#display").css('margin-top', scroll_pos + 'px');
-           
+
             $("#display").css('opacity', realOpacityPercent + '%');
             $("#name").css('font-size', realfontPercent + 'px');
             $("#title").css('font-size', realfontPercentT + 'px');
@@ -39,9 +39,9 @@ $(document).ready(function () {
 
         }
 
-       
 
-      
+
+
 
 
 
@@ -84,7 +84,7 @@ var topMenu = $(".nav"),
         var item = $($(this).attr("href"));
         if (item.length) { return item; }
 
-       
+
     });
 
 // Bind to scroll
@@ -104,28 +104,9 @@ $(window).scroll(function () {
     menuItems
         .parent().removeClass("active")
         .end().filter("[href='#" + id + "']").parent().addClass("active");
-  
 
 
 
-
-// function heightwidth () {
-
-//     var height= $(".image").height();
-//     var width = $(".image").width();
-//     var area = height * width;
-//     var pixel = area * .000260;
-
-//     console.log("height" + height);
-//     console.log("width" + width);
-//     console.log("area" + area);
-
-//     $(".flip-card-back").css("font-size", pixel + "px");
-// console.log("pixel size" + pixel)
-
-
-// }
-// heightwidth();
 
 
 });

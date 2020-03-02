@@ -435,9 +435,13 @@ color:#990000;
 .overlay{
   position: absolute;
   top: 90%;
- left:31%;
- width: 35%;
- height: 80%;
+ left:auto;
+ right:auto;
+ width:35vw;
+ height:35vw;
+ 
+ /* width: 35%;
+ height: 80%; */
 
  
   z-index: 10;
