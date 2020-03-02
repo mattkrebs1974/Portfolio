@@ -2,17 +2,29 @@ $(document).ready(function () {
     var scroll_pos = 0;
     $(document).scroll(function () {
         scroll_pos = $(this).scrollTop();
-        percent = scroll_pos / (456.25);
+        percent = scroll_pos / (156.25);
+        fontPercent = .6 - percent;
+        fontPercentT = .3 - percent;
         opacityPercent = 1 - percent;
+        realfontPercent = fontPercent * 100;
+        realfontPercentT = fontPercentT * 100;
         realOpacityPercent = opacityPercent * 100;
+        
         var screenWidth = window.innerWidth;
-        if (scroll_pos > -1 && scroll_pos < 456.25) {
-            $("#display").css('margin-top', scroll_pos + 'px');
+        if (scroll_pos > -1 && scroll_pos < 156.25) {
+           
+            // $("#display").css('margin-top', scroll_pos + 'px');
+           
             $("#display").css('opacity', realOpacityPercent + '%');
+            $("#name").css('font-size', realfontPercent + 'px');
+            $("#title").css('font-size', realfontPercentT + 'px');
+
+            console.log("percent" + realOpacityPercent)
+
             $(".nav-link").css('color', 'white');
             $(".nav-link").css('background', 'rgba(0, 0, 0, 0)');
         }
-        if (scroll_pos > 456.25 && scroll_pos < 586.25) {
+        if (scroll_pos > 156.25 && scroll_pos < 586.25) {
             $("#display").css('opacity', '0%');
             $(".nav-link").css('color', 'white');
             $(".nav-link").css('background', 'rgba(0, 0, 0, 0)');

@@ -100,7 +100,8 @@ p{
 }
 
 #name {
-font-size: 6vw;
+  
+font-size: 60px;
   font-family: 'Roboto Slab', serif;
  
 
@@ -117,7 +118,7 @@ font-size: 6vw;
 
 #title { 
     
-font-size: 3vw;
+font-size: 30px;
   font-family: 'Roboto Slab', serif;
 
 }
