@@ -49,7 +49,7 @@ $('a').on('click', function (e) {
 
         // console.log(scrollTop);
 
-        $('html, body').animate({ scrollTop: $(hash).offset().top }, 2000);
+        $('html, body').animate({ scrollTop: $(hash).offset().top }, 1000);
     }
 });
 
