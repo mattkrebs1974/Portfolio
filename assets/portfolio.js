@@ -139,7 +139,7 @@ particlesJS('particles-js', {
         },
         anim: {
             enable: true,
-            speed: 1
+            speed: 2
         }
     },
     interactivity: {
