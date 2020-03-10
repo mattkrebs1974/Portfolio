@@ -39,7 +39,13 @@ header a{
     
 }
 #hero1{
- background:url(https://media.giphy.com/media/oXveJYgfwbZy8/giphy.gif);
+
+
+ /* background:url(https://media.giphy.com/media/oXveJYgfwbZy8/giphy.gif); */
+
+background:url(https://ak9.picdn.net/shutterstock/videos/6103979/thumb/1.jpg);
+
+
   background-size:cover;
   background-position:center center;
   background-attachment:fixed;
