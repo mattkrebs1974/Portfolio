@@ -350,6 +350,8 @@ transform: scale(1.1);
 
 
 
+
+
 .nav li.active a{
   font-weight: bolder;
   text-shadow: white;
@@ -396,6 +398,8 @@ color:white;
 		background-position: 0% 50%;
 	}
 }
+
+
 
 
 
