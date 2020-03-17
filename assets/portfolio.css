@@ -440,12 +440,20 @@ font-size: 70%;
 
 }
 
+.pnumber{
+
+margin:0px;
+padding:0px;
+
+}
+
 .pnumber:hover {
 
 transform: scale(1.3);
 color:#990000;
 
 }
+
 
 .overlay{
   position: relative;
@@ -478,8 +486,8 @@ nav{
 
 
 .tint {
-  width: 90px;
-  height: 90px;
+  width: 120px;
+  height: 120px;
   position: relative;
   margin-left: 18px;
   margin-bottom: 10px;
