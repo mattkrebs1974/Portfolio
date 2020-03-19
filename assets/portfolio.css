@@ -541,3 +541,15 @@ transform: scale(2);
 padding:40px;
 
 }
+
+.tooltip-inner {
+    width: 350px;
+
+    font-size: 10px;
+    background-color: rgba(0,0,0,0);
+    color: black;
+    opacity:.6;
+  
+    position:right;
+    transition: all 0.4s linear;
+}
