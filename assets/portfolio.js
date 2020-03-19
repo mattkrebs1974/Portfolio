@@ -165,6 +165,3 @@ particlesJS('particles-js', {
 });
 
 
-$(document).ready(function () {
-$('[data-toggle="tooltip"]').tooltip();
-})
