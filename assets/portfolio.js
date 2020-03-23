@@ -165,3 +165,11 @@ particlesJS('particles-js', {
 });
 
 
+
+
+$(".photos").click(function () {
+    $(this).css("width", "90%");
+    $(this).css("overflow", "hidden");
+    $(this).css("transform", "scale(2)");
+
+});
