@@ -365,10 +365,10 @@ $(function () {
         var distance = Math.sqrt(Math.pow(gradientX - $canvas.width() / 2, 2) + Math.pow(gradientY - $canvas.height() / 2, 2)) / Math.sqrt(Math.pow($canvas.width() / 2, 2) + Math.pow($canvas.height() / 2, 2));
 
         var gradient = context.createRadialGradient(gradientX, gradientY, 300 + (300 * distance), gradientX, gradientY, 0);
+
         gradient.addColorStop(0, '#88B161');
         gradient.addColorStop(1, '#8884FF');
 
-      
 
         // Draw shapes
         var groups = [pointsA, pointsB]
@@ -378,7 +378,9 @@ $(function () {
 
             if (j == 0) {
                 // Background style
+
                 context.fillStyle = '#1CE2D8';
+
             } else {
                 // Foreground style
                 context.fillStyle = gradient;
