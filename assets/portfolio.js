@@ -470,7 +470,7 @@ $(function () {
 
 $(".tint").click(function(){
     
-    $(".flip-card").addClass("hidework");
+    $(".fc").addClass("hidework");
     $(".tint").removeClass("selected");
     $(this).addClass("selected");
 
