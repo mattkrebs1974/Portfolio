@@ -467,3 +467,23 @@ $(function () {
     // Init
     initButton();
 });
+
+$(".tint").click(function(){
+    
+    $(".flip-card").addClass("hidework");
+    $(".tint").removeClass("selected");
+    $(this).addClass("selected");
+
+    // if ($(this).hasClass("node")) {
+    //     $(".nodenode").removeClass("hidework")
+    // }
+    function isSelected() {
+
+        if ($("#node").hasClass("selected")) {
+            $(".nodenode").removeClass("hidework");
+        }
+    }
+isSelected();
+
+})
+
