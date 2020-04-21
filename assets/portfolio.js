@@ -482,7 +482,34 @@ $(".tint").click(function(){
         if ($("#node").hasClass("selected")) {
             $(".nodenode").removeClass("hidework");
         }
+        if ($("#html").hasClass("selected")) {
+            $(".htmlhtml").removeClass("hidework"); 
+        }
+        if ($("#css").hasClass("selected")) {
+            $(".csscss").removeClass("hidework");
+        }
+        if ($("#bootstrap").hasClass("selected")) {
+            $(".bootstrapbootstrap").removeClass("hidework");
+        }
+        if ($("#jquery").hasClass("selected")) {
+            $(".jqueryjquery").removeClass("hidework");
+        }
+        if ($("#javascript").hasClass("selected")) {
+            $(".javascriptjavascript").removeClass("hidework");
+        }
+        if ($("#mysql").hasClass("selected")) {
+            $(".mysqlmysql").removeClass("hidework");
     }
+        if ($("#showall").hasClass("selected")) {
+            $(".allall").removeClass("hidework");
+        }
+        if ($("#express").hasClass("selected")) {
+            $(".expressexpress").removeClass("hidework");
+        }
+        if ($("#wordpress").hasClass("selected")) {
+            $(".wordpresswordpress").removeClass("hidework");
+        }
+}
 isSelected();
 
 })
