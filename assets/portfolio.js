@@ -510,7 +510,7 @@ $(".tint").click(function(){
             $(".wordpresswordpress").removeClass("hidework");
         }
 }
-isSelected();
+setTimeout(isSelected,250);
 
-})
+});
 
