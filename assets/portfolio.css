@@ -628,11 +628,14 @@ border: 4px solid red;
   display:none;
 }
 
+.invisible {
 
+  visibility:hidden;
+}
 
 
 .flip-card {
-  animation: EAT 2s;
+  animation: EAT 3s;
 }
 @keyframes EAT {
   from { opacity: -100%}

@@ -470,6 +470,7 @@ $(function () {
 
 $(".tint").click(function(){
     
+    $(".sectionfour").addClass("invisible")
     $(".fc").addClass("hidework");
     $(".tint").removeClass("selected");
     $(this).addClass("selected");
@@ -478,6 +479,8 @@ $(".tint").click(function(){
     //     $(".nodenode").removeClass("hidework")
     // }
     function isSelected() {
+
+        $(".sectionfour").removeClass("invisible");
 
         if ($("#node").hasClass("selected")) {
             $(".nodenode").removeClass("hidework");
