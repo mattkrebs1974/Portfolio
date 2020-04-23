@@ -482,8 +482,12 @@ $(".tint").click(function(){
 
         $(".sectionfour").removeClass("invisible");
 
-        if ($("#node").hasClass("selected")) {
+        if ($("#node").hasClass("selected")){
             $(".nodenode").removeClass("hidework");
+            $("#firstfour").prepend($("#storestore"));
+            $("#firstfour").prepend($("#liriliri"));
+            $("#firstfour").prepend($("#friendfriend"));
+            $("#firstfour").prepend($("#burgerburger"));
         }
         if ($("#html").hasClass("selected")) {
             $(".htmlhtml").removeClass("hidework"); 
@@ -511,6 +515,13 @@ $(".tint").click(function(){
         }
         if ($("#wordpress").hasClass("selected")) {
             $(".wordpresswordpress").removeClass("hidework");
+        }
+        if ($("#showall").hasClass("selected")) {
+            $("#thirdthird").prepend($("#storestore"));
+            $("#thirdthird").prepend($("#friendfriend"));
+            $("#thirdthird").prepend($("#burgerburger"));
+            $("#secondsecond").prepend($("#liriliri"));
+            
         }
 }
 setTimeout(isSelected,250);
