@@ -516,6 +516,11 @@ $(".tint").click(function(){
         if ($("#wordpress").hasClass("selected")) {
             $(".wordpresswordpress").removeClass("hidework");
         }
+        if ($("#mongodb").hasClass("selected")) {
+            $(".mongomongo").removeClass("hidework");
+        }
+
+
         if ($("#showall").hasClass("selected")) {
             $("#thirdthird").prepend($("#storestore"));
             $("#thirdthird").prepend($("#friendfriend"));
