@@ -513,6 +513,10 @@ $(".tint").click(function(){
         if ($("#express").hasClass("selected")) {
             $(".expressexpress").removeClass("hidework");
         }
+        if ($("#react").hasClass("selected")) {
+            $(".reactreact").removeClass("hidework");
+        }
+
         if ($("#wordpress").hasClass("selected")) {
             $(".wordpresswordpress").removeClass("hidework");
         }
