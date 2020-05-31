@@ -123,7 +123,7 @@ function launchParticlesJS(a, e) { var i = document.querySelector("#" + a + " > 
 particlesJS('particles-js', {
     particles: {
         color: '#990000',
-        shape: 'circle', // "circle", "edge" or "triangle"
+        shape: "circle", // "circle", "edge" or "triangle"
         opacity: .8,
         size: 6,
         size_random: true,
